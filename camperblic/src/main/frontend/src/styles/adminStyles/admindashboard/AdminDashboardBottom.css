@@ -1,0 +1,5 @@
+.admindashboard_bottom{
+    display: flex;
+    justify-content: space-between;
+    height:500px;
+}

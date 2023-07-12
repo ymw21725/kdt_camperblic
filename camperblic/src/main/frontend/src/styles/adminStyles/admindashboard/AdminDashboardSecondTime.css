@@ -1,0 +1,13 @@
+.adminsecondtime_main{
+    position: absolute;
+    right: 0;
+    margin-right: 50px;
+}
+
+.adminsecondtime_title {
+    font-weight: bold;
+}
+
+.adminsecondtime_week {
+    color: red;
+}

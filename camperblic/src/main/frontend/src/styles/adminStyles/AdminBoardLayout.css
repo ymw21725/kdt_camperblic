@@ -1,0 +1,57 @@
+.AdminBoard_table {
+    width: 80%;
+    margin: 20px auto;
+    border-collapse: collapse;
+}
+
+.AdminBoardFormth {
+    background-color: #f0f0f0;
+    color: #333;
+    height: 40px;
+}
+
+.AdminBoardFormtd {
+    text-align: center;
+    border: 1px solid #ccc;
+}
+
+.AdminBoardFormtdcenter {
+    vertical-align: middle;
+    width: 15%;
+    height: 40px;
+}
+
+.adminBoardForm_btn {
+    padding: 5px 10px;
+    background-color: #555555;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+
+.adminBoardForm_btn:hover {
+    background-color: #333333;
+}
+
+.search-bar_board {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.admincategory_board_layout {
+    margin-right: 10px;
+}
+
+.search-bar_board input[type="text"],
+.search-bar_board button {
+    padding: 5px 10px;
+}
+
+.search-bar_board button {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}

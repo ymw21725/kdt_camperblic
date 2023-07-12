@@ -1,0 +1,68 @@
+.admindashboard_container {
+    display: flex;
+    justify-content: center;
+}
+
+.admindashboard_orderTest table {
+    width:100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+.admindashboard_orderTest th,
+.admindashboard_orderTest td {
+    padding: 10px;
+    text-align: center;
+    border: 1px solid #ccc;
+}
+
+.admindashboard_orderTest th {
+    background-color: #f2f2f2;
+    font-weight: bold;
+}
+
+.admindashboard_orderTest tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
+
+.admindashboard_orderTest tr:hover {
+    background-color: #ebebeb;
+}
+
+.admindashboard_orderTest th,
+.admindashboard_orderTest td {
+    padding: 10px;
+    text-align: center;
+    border: 1px solid #ccc;
+    width: 150px;
+}
+
+.tab_container {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+
+.tab {
+    padding: 10px 20px;
+    margin-right: 10px;
+    background-color: #f2f2f2;
+    cursor: pointer;
+}
+
+.tab.active {
+    background-color: #ccc;
+}
+
+.admindashboard_orderBtn{
+    /*position: relative;*/
+    /*left:700px;*/
+    font-size: 20px;
+    padding: 5px 10px;
+    background-color: #555555;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+

@@ -1,0 +1,89 @@
+
+.charge_section {
+    position: fixed;
+    top: 235px;
+    right: 25px;
+    width: 275px;
+    background-color: #f5f5f5;
+    padding: 20px;
+    margin-right: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+@media (max-width: 1279px) {
+    .charge_section {
+        position: static;
+        margin-top: 9px;
+        width: 95%;
+    }
+}
+
+.charge_section .charge_area {
+    margin-bottom: 20px;
+}
+
+.charge_section .count_item,
+.charge_section .usestatus_coupon,
+.charge_section .discount_area,
+.charge_section .total_area {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 0;
+    margin-bottom: 10px;
+}
+
+.discount_area .title {
+    font-size: 16px;
+}
+
+.total_area .title {
+    font-weight: bold;
+    font-size: 16px;
+}
+
+.charge_section .data,
+.charge_section .discount_cost,
+.charge_section .charge,
+.charge_section .text_vat {
+    font-size: 16px;
+}
+
+.charge_section hr {
+    margin: 10px 0;
+    border: none;
+    border-top: 1px solid #ccc;
+}
+
+.text_vat {
+    text-align: right;
+}
+
+.charge_section .agree_area {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.charge_section .input_agree {
+    margin-right: 5px;
+}
+
+.charge_section .label_agree {
+    font-size: 14px;
+}
+
+.charge_section .link_pay {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.charge_section .link_pay.disabled {
+    opacity: 0.5;
+    cursor: not-allowed;
+}

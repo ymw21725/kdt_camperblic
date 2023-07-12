@@ -1,0 +1,87 @@
+.signupMainDiv {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 1000px;
+    background-size: cover;
+    text-align: center;
+}
+
+.signupMainDivForm {
+    width: 600px;
+    padding: 30px;
+    background-color: #efe8d2;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+.signupMainDiv .signupMainDivForm h1 {
+    margin-bottom: 30px;
+}
+
+.signupMainForm {
+    width: 600px;
+    border-collapse: collapse;
+}
+
+.signupMainForm colgroup col {
+    width: 30%;
+}
+
+.signupMainForm td {
+    padding: 10px;
+    border: 1px solid #ccc;
+}
+
+.signupMainForm label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+    font-size: 1.2rem;
+    color: black;
+}
+.signupMainForm label::after{
+    content: "*";
+    color: red;
+}
+
+.signupMainForm input {
+    width: 100%;
+    height: 40px;
+    padding: 5px;
+    margin-bottom: 15px;
+    margin-top: 10px;
+    border: 1px solid #bbb;
+    border-radius: 3px;
+    box-sizing: border-box;
+}
+.signupMainForm .signUpPwDiv{
+    position: relative;
+}
+.signupMainForm .signUpPwDiv span{
+    cursor: pointer;
+    position: absolute;
+    right: 2.5%;
+    bottom: 40%;
+}
+.signupMainForm #pTag {
+    font-size: 0.8rem;
+    margin-bottom: 5px;
+}
+
+.signupMainDivForm .signupBtn {
+    width: 50%;
+    height: 40px;
+    background-color: #228b22;
+    color: #fff;
+    border: none;
+    border-radius: 3px;
+    font-size: 1rem;
+    cursor: pointer;
+    margin-top: 20px;
+    transition: background-color 0.3s ease;
+}
+
+.signupMainDivForm .signupBtn:hover {
+    background-color: #1a6f17;
+}

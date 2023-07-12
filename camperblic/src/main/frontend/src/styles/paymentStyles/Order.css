@@ -1,0 +1,50 @@
+.orderLayout{
+    min-height: 650px;
+    height: 100%;
+    width: auto;
+    border-left: 3px solid hsla(0,0%,100%,.1);
+    position: relative;
+    background-color: black;
+}
+
+.section_wrap {
+    overflow: hidden;
+    margin: 0 43px;
+    padding: 50px 0 60px;
+
+    font-size: 15px;
+
+    position: relative;
+}
+
+@media (max-width: 1279px) {
+    .list_section{
+        width: auto;
+        min-height: auto;
+        margin: 0;
+    }
+}
+
+.list_section{
+    position: relative;
+}
+
+
+/* ItemlistCart ——— */
+
+.blind {
+    overflow: hidden;
+    position: absolute;
+    clip: rect(0 0 0 0);
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+}
+
+/* title —*/
+
+
+/* table —*/
+
+
+/* cost —*/

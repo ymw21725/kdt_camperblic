@@ -1,0 +1,49 @@
+# IntelliJ / Eclipse
+.idea/
+.classpath
+.project
+.settings/
+
+# Maven
+target/
+
+# Spring Boot
+*.log
+/target/
+
+# Node.js / NPM
+/node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# TypeScript
+*.js
+*.js.map
+*.d.ts
+
+# MariaDB
+/db/
+*.sql
+
+# Compiled binaries
+*.class
+*.war
+*.ear
+*.jar
+
+# Package Files
+*.war
+*.ear
+*.jar
+
+# OS / Editor
+.DS_Store
+*.swp
+*~
+
+# Ignore everything in build and dist directories, except .gitkeep
+build/**
+!build/.gitkeep
+dist/**
+!dist/.gitkeep

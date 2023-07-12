@@ -1,0 +1,114 @@
+.main_img {
+    position: relative;
+    height: 800px;
+    width: 100%;
+}
+
+.main_img:before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: url(https://cdn.pixabay.com/photo/2021/01/04/10/45/tent-5887144_1280.jpg) no-repeat center/cover;
+    opacity: 0.3;
+    z-index: -1;
+}
+.main_itembox_container {
+    display: block;
+    width: 100%;
+}
+
+.main_section {
+    height: 100%;
+}
+
+.main-content {
+    background-color: #f2f2f2;
+    padding: 50px;
+    text-align: center;
+}
+
+.main-content h1 {
+    font-size: 32px;
+    color: #333;
+}
+
+.main-content p {
+    font-size: 18px;
+    color: #777;
+    margin-bottom: 20px;
+}
+
+
+
+.main_img_h2 {
+    font-size: 24px;
+    color: #333;
+    margin-top: 20px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.product-list {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-gap: 30px;
+    width: 90%;
+    margin: 0 auto; /* 중앙 정렬을 위해 margin을 auto로 설정 */
+}
+
+.item-box {
+    margin-right: 0px;
+    width: 100%;
+    height: 250px;
+    border: 1px solid;
+    border-radius: 5px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color: black;
+    position: relative;
+
+}
+
+.item-box::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: -1;
+}
+
+.item-box img {
+    width: 60%;
+    /*height: auto;*/
+    margin-bottom: 20px;
+
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.item-box-imgsize{
+    width:100px;
+    height:100px;
+}
+
+.item-box h3 {
+    text-align: center;
+    font-size: 25px;
+    margin-bottom: 5px;
+    list-style: none;
+}
+
+.item-box p {
+    margin-top: 20px;
+    /*color: antiquewhite;*/
+    text-align: center;
+    font-weight: bold;
+}

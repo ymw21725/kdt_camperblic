@@ -1,0 +1,60 @@
+.adminmodal_update {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 300px;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+.adminmodal_title {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.adminmodal_img {
+    width: 100%;
+    max-width: 200px;
+    height: auto;
+    margin-bottom: 10px;
+}
+
+.adminmodal_p{
+    font-size: 16px;
+    margin-bottom: 5px;
+}
+
+.adminmodal_form {
+    margin-top: 20px;
+}
+
+.adminmodal_input[type="number"] {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+}
+
+.adminmodal_update button {
+    padding: 8px 16px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+
+.adminmodal_btn[type="submit"] {
+    background-color: #28a745;
+    margin-right: 10px;
+}
+
+.adminmodal_btn[type="submit"]:hover,
+.adminmodal_btn[type="submit"]:focus {
+    background-color: #218838;
+}
+
+.adminmodal_btn[type="button"]:hover,
+.adminmodal_btn[type="button"]:focus {
+    background-color: #dc3545;
+}

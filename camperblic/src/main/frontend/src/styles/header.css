@@ -1,0 +1,249 @@
+*{
+    margin: 0;
+    text-decoration: none;
+}
+
+header * {
+    text-decoration: none;
+    box-sizing: border-box;
+}
+
+header {
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    width: 250px;
+    height: 100vh;
+    background-color: black;
+    color: #ccc; /* 텍스트 기본 색상 설정 */
+}
+
+header:hover {
+    color: #fff; /* 호버 시 텍스트 색상 설정 */
+}
+
+header a {
+    color: #ccc; /* 부모 요소의 텍스트 색상 상속 */
+    transition: color 0.3s ease;
+}
+
+header a:hover {
+    color: #fff;
+}
+
+header h3{
+    margin-left: 20px;
+}
+
+.asideTop {
+    width: 100%;
+    height: 100%;
+    background-color: black;
+}
+
+.mallCommuContainer {
+    width: 100%;
+    height: 60px;
+    position: relative;
+    display: flex;
+    overflow: hidden;
+    cursor: pointer;
+}
+
+.mallCommuBtnDeco {
+    display: flex;
+    position: absolute;
+    justify-content: center;
+    align-items: center;
+    left: 0;
+    width: 50%;
+    height: 100%;
+    background-color: black;
+    z-index: 1;
+}
+
+.mallCommu {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    position: relative;
+}
+
+.mallCommu {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    position: relative;
+    right: 0;
+    transition: right 0.3s ease; /* Add transition property */
+}
+
+.mall,
+.community {
+    overflow-y: scroll;
+    height: 300px;
+    width: 249px;
+}
+
+.headerLogo {
+    display: flex;
+    align-items: center;
+    padding: 35px 20px;
+    border-bottom: 1px solid rgb(66, 66, 66);
+    font-size: 30px;
+    color: #ccc; /* 텍스트 색상 추가 */
+}
+
+header nav {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    border-bottom: 1px solid rgb(66, 66, 66);
+}
+
+.headerBtn {
+    text-align: start;
+    width: 100%;
+    height: 60px;
+    padding-left: 20px;
+    cursor: pointer;
+    font-size: 25px;
+    font-weight: 700;
+    border: none;
+    background-color: black;
+    transition: color 0.3s ease;
+    color: #ccc; /* 텍스트 색상 추가 */
+}
+
+.headerMallCommuBtn {
+    text-align: center;
+    height: 60px;
+    width: 100%;
+    cursor: pointer;
+    font-size: 25px;
+    font-weight: 700;
+    border: none;
+    background-color: black;
+    transition: color 0.3s ease;
+    color: #ccc; /* 텍스트 색상 추가 */
+}
+
+.headerBtn:hover {
+    color: #fff;
+}
+
+.asideBottom {
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    background-color: black;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px 0;
+    gap: 20px;
+}
+
+.bottomBtn {
+    width: 80%;
+    height: 50px;
+    border: none;
+    background-color: black;
+    cursor: pointer;
+    border: 1px solid rgb(66, 66, 66);
+    border-radius: 3%;
+    color: #ccc;
+    transition: color 0.3s ease;
+}
+
+.bottomBtn:hover {
+    color: #fff;
+}
+
+header nav a {
+    display: flex;
+    height: 50px;
+    padding-left: 20px;
+    align-items: center;
+    font-size: 25px;
+    font-weight: 700;
+    opacity: 0.5;
+    transition: opacity 0.3s ease;
+}
+
+header nav a:hover {
+    opacity: 1;
+    color: #fff;
+}
+
+.justDeco {
+    z-index: -1;
+    position: fixed;
+    height: 25px;
+    width: 100vw;
+    left: 0;
+    background-color: black;
+    transition: background-color 0.3s ease;
+}
+
+.justDeco.top {
+    top: 0;
+}
+
+.justDeco.bottom {
+    bottom: 0;
+}
+
+.justDeco:hover {
+    background-color: rgb(33, 33, 33);
+}
+
+.right {
+    z-index: -1;
+    position: fixed;
+    height: 100vh;
+    width: 25px;
+    right: 0;
+    top: 0;
+    background-color: black;
+    transition: background-color 0.3s ease;
+}
+
+.right:hover {
+    background-color: rgb(33, 33, 33);
+}
+
+.animated-button {
+    position: relative;
+    overflow: hidden;
+}
+
+.animated-button:before {
+    content: "";
+    position: absolute;
+    width: 0;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background-color: rgba(255, 255, 255, 0.2);
+    transition: width 0.3s ease;
+    z-index: -1;
+}
+
+.animated-button:hover:before {
+    width: 100%;
+}
+
+.asideBottom img {
+    width:30px;
+    height:30px;
+}
+
+.asideBottom {
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}

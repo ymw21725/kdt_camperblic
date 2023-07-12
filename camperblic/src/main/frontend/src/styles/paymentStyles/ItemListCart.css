@@ -1,0 +1,114 @@
+/* 기본 스타일 */
+.item_cart {
+    margin: 20px 300px 0 20px;
+    height: 100%;
+}
+
+.list_table_wrap {
+    overflow-x: auto;
+}
+
+.itemlist_table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.caption {
+    padding: 0;
+}
+
+.caption .texttext {
+    position: absolute;
+    left: -9999px;
+}
+
+/* 테이블 헤더 스타일 */
+.itemlist_thead th {
+    background-color: darkgrey;
+    font-weight: bold;
+    padding: 10px;
+    text-align: center;
+    vertical-align: middle;
+}
+
+.cartlist_select {
+    width: 30px;
+}
+
+.itemimg {
+    width: 70px;
+}
+
+/* 테이블 바디 스타일 */
+.itemlist_tbody tr.selected.list_main {
+    background-color: #f7f7f7;
+}
+
+.itemlist_tbody td {
+    padding: 10px;
+    text-align: center;
+    vertical-align: middle;
+}
+
+/* 선택 체크박스 스타일 */
+.input_check_checked{
+    display: block;
+    position: relative;
+    margin-left: 10px;
+    box-sizing: border-box;
+    cursor: pointer;
+}
+
+
+
+/* 상품 이미지 스타일 */
+.img_item {
+    width: 60px;
+    height: 60px;
+    object-fit: cover;
+}
+
+/* 상품명 스타일 */
+.itemTitle_text {
+    font-weight: bold;
+}
+
+/* 수량 스타일 */
+.item_count {
+    width: 90px;
+}
+
+.item_count .count {
+    margin: 0 5px;
+}
+
+.item_count button {
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+/* 가격 스타일 */
+.price_box {
+    width: 160px;
+}
+
+.price {
+    font-weight: bold;
+}
+
+
+/* 삭제 버튼 스타일 */
+.list_delete {
+    width: 70px;
+}
+
+.delete_one {
+    color: red;
+    text-decoration: none;
+}
+
+.delete_one:hover {
+    text-decoration: underline;
+}

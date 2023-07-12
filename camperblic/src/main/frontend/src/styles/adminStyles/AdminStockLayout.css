@@ -1,0 +1,75 @@
+.AdminStock_tabcontenttable {
+    width: 80%;
+    margin: 20px auto;
+    border-collapse: collapse;
+}
+
+.AdminStock_contenttableth {
+    background-color: #f0f0f0;
+    color: #333;
+}
+
+.AdminStock_contenttabletd {
+    text-align: center;
+    border: 1px solid #ccc;
+    height: 100px;
+}
+
+.AdminStock_right1 {
+    text-align: right;
+}
+
+.AdminStock_right2 {
+    text-align: right;
+    padding-right: 10px;
+}
+
+.AdminStock_right3 {
+    text-align: right;
+    padding-right: 10px;
+}
+
+.AdminStock_right4 {
+    text-align: center;
+}
+
+.AdminStock_contentImg {
+    width: 90px;
+    height: 90px;
+    object-fit: cover;
+}
+
+.AdminStock_modifyBtn {
+    padding: 5px 10px;
+    background-color: #555555;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+
+.AdminStock_modifyBtn:hover {
+    background-color: #333333;
+}
+
+.search-bar_stock {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.admincategory_stock_layout {
+    margin-right: 10px;
+}
+
+.search-bar_stock input[type="text"],
+.search-bar_stock button {
+    padding: 5px 10px;
+}
+
+.search-bar_stock button {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}

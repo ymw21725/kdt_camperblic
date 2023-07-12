@@ -1,0 +1,16 @@
+.second_div{
+    padding-left: 25px;
+    border-bottom: 1px solid;
+    line-height: 50px;
+    height:50px;
+    display: flex;
+    gap: 20px;
+}
+
+.adminsecond_btn{
+    border: none;
+    font-size: 16px;
+    background-color: white;
+    cursor: pointer;
+}
+

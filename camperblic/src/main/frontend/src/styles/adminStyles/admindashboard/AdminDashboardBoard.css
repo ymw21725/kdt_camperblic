@@ -1,0 +1,49 @@
+.admindashboard_main{
+    width:50%;
+}
+
+.admindashboard_table{
+    width: 90%;
+    display: inline-block;
+}
+
+.admindashboard_title{
+    font-size: 20px;
+    padding-left: 40px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+
+.admindashboard_tableth{
+    border-bottom: 1px dashed;
+    margin-left: 50px;
+}
+
+.admindashboard_tablecenter{
+    width: 33%;
+    text-align: center;
+}
+
+.admindashboard_tableth,
+.admindashboard_tabletd{
+    display: flex;
+    justify-content: space-around;
+}
+
+.tab_container {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+
+.tab {
+    padding: 10px 20px;
+    margin-right: 10px;
+    background-color: #f2f2f2;
+    cursor: pointer;
+}
+
+.tab.active {
+    background-color: #ccc;
+}

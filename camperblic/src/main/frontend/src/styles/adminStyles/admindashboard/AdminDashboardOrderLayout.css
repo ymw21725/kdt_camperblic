@@ -1,0 +1,92 @@
+.AdminBoard_table {
+    width: 80%;
+    margin: 20px auto;
+    border-collapse: collapse;
+}
+
+.AdminBoardFormth {
+    background-color: #f0f0f0;
+    color: #333;
+    height: 40px;
+}
+
+.AdminBoardFormtd {
+    text-align: center;
+    border: 1px solid #ccc;
+}
+
+.AdminBoardFormtdcenter {
+    vertical-align: middle;
+    width: 100%;
+    height: 40px;
+}
+
+.AdminBoardFormth:nth-child(1) {
+    width: 5%;
+}
+
+.AdminBoardFormth:nth-child(2) {
+    width: 10%;
+}
+
+.AdminBoardFormth:nth-child(3) {
+    width: 40%;
+}
+
+.AdminBoardFormth:nth-child(4) {
+    width: 10%;
+}
+
+.AdminBoardFormth:nth-child(5) {
+    width: 10%;
+}
+
+.AdminBoardFormth:nth-child(6) {
+    width: 5%;
+}
+
+.AdminBoardFormth:nth-child(4),
+.AdminBoardFormtd:nth-child(4) {
+    padding-left: 20px;
+    width: 30%;
+}
+
+.adminBoardForm_btn {
+    padding: 5px 10px;
+    background-color: #555555;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+
+.adminBoardForm_btn:hover {
+    background-color: #333333;
+}
+
+.search-bar_order {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.admincategoryorder_layout {
+    margin-right: 10px;
+}
+
+.search-bar_order input[type="text"],
+.search-bar_order button {
+    padding: 5px 10px;
+}
+
+.search-bar_order button {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+
+.AdminBoardFormth th:nth-child(4),
+.AdminBoardFormtd td:nth-child(4) {
+    width: 200px;
+}

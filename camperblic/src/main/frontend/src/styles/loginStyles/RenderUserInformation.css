@@ -1,0 +1,100 @@
+/* 전체 컨테이너 */
+.userInfoMainDiv {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+}
+
+/* 회원 정보 테이블 */
+.userInfoMainDiv .userInfoTable {
+    width: 700px;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+    min-height: 500px;
+}
+
+.userInfoMainDiv .userInfoTable th {
+    background-color: #f2f2f2;
+    padding: 10px;
+    text-align: left;
+    border: 1px solid #ccc;
+}
+
+.userInfoMainDiv .userInfoTable td {
+    padding: 10px;
+    border: 1px solid #ccc;
+}
+
+/* 입력 폼 스타일 */
+.userInfoMainDiv .userInfoForm input,
+.userInfoMainDiv button {
+    padding: 8px 12px;
+    font-size: 14px;
+}
+
+.userInfoMainDiv h1 {
+    margin-bottom: 20px;
+}
+
+.userInfoMainDiv .userInfoForm input{
+    width: 93.5%;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.userInfoMainDiv  button {
+    background-color: black;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.userInfoMainDiv button[type="submit"] {
+    background-color:#2c4b73;
+}
+
+.userInfoMainDiv button {
+    margin-right: 10px;
+}
+
+/* 회원 정보 수정 버튼 그룹 */
+.userInfoMainDiv .userInfoBtn {
+    margin-bottom: 20px;
+}
+
+.userInfoMainDiv .userInfoBtn button {
+    margin-right: 10px;
+}
+
+/* 주소 정보 테이블 */
+.userInfoMainDiv .userInfoAddTable {
+    width: 100%;
+    margin-bottom: 20px;
+    border: 1px solid  #ccc;
+    border-collapse: collapse;
+}
+
+.userInfoMainDiv .userInfoAddTable  tr td{
+    border: 1px solid #ccc;
+    text-align: center;
+}
+
+.userInfoMainDiv .userInfoAddTable  tr td,
+.userInfoMainDiv .userInfoAddTable  thead tr th{
+    height: 30px;
+}
+.userInfoMainDiv .changeAdd {
+    background-color: #d3b48c;
+    color: #000;
+    margin-top: 10px;
+}
+
+/* 테이블 보더라인 */
+.userInfoMainDiv .userInfoTable,
+.userInfoMainDiv .userInfoTable th,
+.userInfoMainDiv .userInfoTable td {
+    border: 1px solid #ccc;
+
+}

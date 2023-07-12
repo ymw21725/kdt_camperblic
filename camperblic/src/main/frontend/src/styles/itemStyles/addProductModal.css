@@ -1,0 +1,67 @@
+.add-product-modal-overlay {
+    position: fixed;
+    top: 10%;
+    left: 42%;
+    width: 400px;
+    height: 100%;
+
+}
+
+.add-product-modal-content {
+    width: 600px;
+    /*max-width: 100%;*/
+    background-color: white;
+    padding: 20px;
+    border-radius: 4px;
+}
+
+.add-product-modal {
+    width: 300px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.add-product-modal__title {
+    text-align: center;
+}
+
+.add-product-modal__input,
+.add-product-modal__select,
+.add-product-modal__textarea {
+    margin-bottom: 10px;
+    padding: 5px;
+    width: 100%;
+}
+
+.add-product-modal__button-group {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+}
+
+.add-product-modal__submit-button,
+.add-product-modal__cancel-button {
+    padding: 8px 15px;
+    background-color: #4caf50;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+.add-product-modal__submit-button:hover,
+.add-product-modal__cancel-button:hover {
+    background-color: #45a049;
+}
+
+.add-product-modal__submit-button:disabled {
+    background-color: gray;
+    cursor: not-allowed;
+}
+
+.add-product-modal__file-input {
+    margin-bottom: 10px;
+    width: 100%;
+}

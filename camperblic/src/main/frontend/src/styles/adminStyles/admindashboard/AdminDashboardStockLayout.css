@@ -1,0 +1,34 @@
+.admin-dashboard-stock-layout {
+    margin-top: 20px;
+    /*height: 500px;*/
+}
+
+.admin-dashboard-stock-layout table {
+    width: 80%;
+    border-collapse: collapse;
+    margin: 0 auto;
+}
+
+.admin-dashboard-stock-layout th,
+.admin-dashboard-stock-layout td {
+    padding: 10px;
+    text-align: center;
+    border: 1px solid #ccc;
+}
+
+.admin-dashboard-stock-layout th {
+    background-color: #f0f0f0;
+    color: #333;
+}
+
+.admin-dashboard-stock-layout tbody tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+.admin-dashboard-stock-layout tbody tr:nth-child(odd){
+    background-color: #ffffff;
+}
+
+.admin-dashboard-stock-layout tbody tr:hover {
+    background-color: #eaeaea;
+}

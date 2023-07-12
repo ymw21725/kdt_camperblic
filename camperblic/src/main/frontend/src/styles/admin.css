@@ -1,0 +1,6 @@
+.adminMenu{
+    overflow-y: auto;
+    height: 160px;
+    width: 249px;
+    display: block;
+}

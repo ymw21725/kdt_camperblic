@@ -1,0 +1,95 @@
+.detailTop{
+    color: black;
+    font-size: 50px;
+    padding-top: 30px;
+    text-align: center;
+}
+
+
+.item-detail-container {
+    min-width: 500px;
+    max-width: 80%;
+    margin: 30px auto 0;
+    padding: 40px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    border-radius: 8px;
+    display: flex;
+    align-items: flex-start;
+    flex-wrap: wrap;
+}
+
+.item-detail-image {
+    flex: 0 0 500px;
+    margin-right: 40px;
+}
+
+.item-detail-image img {
+    width: 100%;
+    height: auto;
+    object-fit: contain;
+    margin-left: 70px;
+}
+
+.item-detail-content {
+    flex: 1 1 200px;
+    margin-left: 300px;
+}
+
+.item-detail-title {
+    font-size: 24px;
+    margin-bottom: 16px;
+}
+
+.item-detail-subtitle {
+    font-size: 20px;
+    margin-bottom: 8px;
+}
+
+.item-detail-text {
+    margin-bottom: 8px;
+}
+.ptagCart{
+    font-size: 20px;
+    margin-top: 15px;
+    color: #ff4141;
+}
+.item-detail-link,
+.item-detail-go-to-cart-button{
+    display: inline-block;
+    margin-top: 16px;
+    margin-right: 16px; /* 추가: 상품목록과 장바구니 간격 조정 */
+    padding: 8px 16px;
+    background-color: #333;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 4px;
+    transition: background-color 0.3s ease;
+}
+
+.item-detail-link:last-child {
+    margin-right: 0; /* 추가: 장바구니 링크 오른쪽 간격 제거 */
+}
+
+.item-detail-link:hover {
+    background-color: #555;
+}
+
+.item-detail-description {
+    margin-top: 40px; /* 추가: 상세설명과 상품정보 간격 조정 */
+}
+
+.item-detail-description p {
+    margin-bottom: 8px;
+}
+.item-detail-description {
+    min-width: 500px;
+    max-width: 80%;
+    margin: 20px auto;
+    padding: 40px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    border-radius: 8px;
+    text-align: center;
+}
+

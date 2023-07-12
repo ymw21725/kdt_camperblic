@@ -1,0 +1,192 @@
+/* boardLayout.css */
+
+/* .boardLayOut */
+.boardLayOut {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #111;
+    color: #111;
+}
+
+/* .innerWrap */
+.innerWrap {
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+
+}
+
+/* .tableContainer */
+.tableContainer {
+    border: 1px solid white;
+    min-height: 65vh;
+}
+
+.tableContainer table {
+    border-top: 2px solid #111;
+    border-collapse: collapse;
+    width: 100%;
+}
+
+.tableContainer th {
+    padding: 20px;
+    background-color: #111;
+    color: #fff;
+    font-weight: bold;
+}
+
+.tableContainer td {
+    border-top: 1px solid #111;
+    border-bottom: 1px solid #111;
+    padding: 10px 20px;
+}
+
+.tableContainer tr:nth-child(even) {
+    background-color: #fff;
+}
+
+.tableContainer tr:nth-child(odd) {
+    background-color: #eee;
+}
+
+/* .linkTd */
+.linkTd:hover {
+    background-color: #ccc;
+    color: #111;
+    cursor: pointer;
+}
+
+.linkTd a {
+    color: #111;
+    text-decoration: none;
+}
+
+/* .writeBtn */
+.writeBtn {
+    position: absolute;
+    right: 0;
+    background-color: #fff;
+    color: #111;
+    width: 80px;
+    border: none;
+    cursor: pointer;
+    outline: none;
+    transition: background-color 0.3s, color 0.3s;
+    margin: 10px 0px;
+    padding: 10px 0px;
+}
+
+.writeBtn a {
+    color: #111;
+    text-decoration: none;
+}
+
+.writeBtn:hover {
+    background-color: #ccc;
+    color: #fff;
+}
+
+.writeBtn:focus {
+    outline: none;
+    box-shadow: 0 0 4px rgba(0, 0, 0, 0.3);
+}
+
+/* .pageNationWrap */
+.pageNationWrap {
+    display: flex;
+    width: 100%;
+    margin: 20px 0px;
+    justify-content: center;
+    position: relative;
+}
+
+.pageNationWrap button {
+    background-color: #f2f2f2;
+    border: none;
+    color: #333;
+    padding: 8px 12px;
+    font-size: 14px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    width: 70px;
+    height: 30px;
+    margin: 0 5px;
+}
+
+.pageNationWrap button.active,
+.pageBtnUl li button.active {
+    background-color: #333;
+    color: #fff;
+}
+
+.pageNationWrap button:hover,
+.pageBtnUl li button:hover {
+    background-color: #e0e0e0;
+    color: #fff;
+    cursor: pointer;
+}
+
+.pageNationWrap button:disabled {
+    background-color: #222;
+    color: #333;
+    cursor: default;
+}
+
+/* .pageBtnUl */
+.pageBtnUl {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    padding: 0;
+}
+
+.pageBtnUl li button {
+    background-color: #111;
+    border: none;
+    color: #f2f2f2;
+    padding: 8px 12px;
+    font-size: 14px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    width: 40px;
+    height: 30px;
+}
+
+.pageNationWrap button:disabled:hover {
+    cursor: not-allowed;
+}
+
+/* .topSide */
+.topSide {
+    width: 100%;
+    height: 110px;
+    background: url(https://cdn.pixabay.com/photo/2021/01/04/10/45/tent-5887144_1280.jpg) no-repeat center/cover;
+}
+
+/* .bottomSide */
+.bottomSide {
+    width: 100%;
+    height: 200px;
+    color: #eeeef7;
+}
+
+.bottomSide h3 {
+    width: 80%;
+    margin: 10px auto;
+    font-size: 25px;
+}
+
+.bottomItemContainer {
+    height: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.bottomItem {
+    cursor: pointer;
+    border: red 1px solid;
+    width: 20%;
+    height: 90%;
+}
